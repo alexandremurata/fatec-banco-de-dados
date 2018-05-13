@@ -2,6 +2,7 @@
  ============================================================================
  Name        : Exercicio01.c
  Author      : alexandre.murata
+ Date		 : 05.2018
  Description : elabore um programa para cadastrar 10 pessoas.
  ============================================================================
  */
