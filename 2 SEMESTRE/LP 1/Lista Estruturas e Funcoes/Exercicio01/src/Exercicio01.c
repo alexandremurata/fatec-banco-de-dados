@@ -16,6 +16,7 @@ typedef struct {
 	int idade;
 } PESSOA;
 
+int sizeList = 10;
 
 int main(void) {
 
@@ -23,7 +24,7 @@ int main(void) {
 	char name[31];
 	int age;
 
-	for(int i = 0 ; i < 10 ; i++) {
+	for(int i = 0 ; i < sizeList ; i++) {
 		printf("\nInforme o nome: ");
 		fflush(stdin);
 		scanf("%s", name);
@@ -34,6 +35,13 @@ int main(void) {
 		person[i].idade = age;
 
 	}
+
+	for(int i = 0 ; i < sizeList ; i++) {
+		printf("\n#####");
+		printf("\nNome: %s \nIdade: %d", person[i].nome, person[i].idade);
+		printf("\n#####");
+	}
+
 	system("pause");
 	return 0;
 }
