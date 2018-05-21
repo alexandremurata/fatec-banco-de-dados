@@ -95,7 +95,7 @@ void cadastrar() {
 	scanf(" %[^\n]s", rg);
 	strcpy(person[contadorPessoa]->rg, rg);
 	printf("\nInforme o ano de nascimento: ");
-	scanf(" %i", &person[contadorPessoa]->anoNascimento);
+	scanf(" %d", &person[contadorPessoa]->anoNascimento);
 
 	contadorPessoa++;
 
