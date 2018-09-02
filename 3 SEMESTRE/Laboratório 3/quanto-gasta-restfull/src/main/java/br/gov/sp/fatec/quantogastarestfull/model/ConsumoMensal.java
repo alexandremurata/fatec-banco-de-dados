@@ -1,6 +1,5 @@
 package br.gov.sp.fatec.quantogastarestfull.model;
 
-
 import br.gov.sp.fatec.quantogastarestfull.utils.ConstantsUtils;
 import lombok.Getter;
 import lombok.Setter;
